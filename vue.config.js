@@ -55,7 +55,7 @@ module.exports = {
       .use('svg-sprite-loader')
       .loader('svg-sprite-loader')
       .options({
-        symbolId: 'icons-[name]',
+        symbolId: 'icon-[name]',
       })
       .end()
   },
